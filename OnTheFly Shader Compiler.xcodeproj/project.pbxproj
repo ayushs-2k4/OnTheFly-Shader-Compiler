@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0789CF742C157988006E62C5 /* OnTheFly_Shader_CompilerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789CF732C157988006E62C5 /* OnTheFly_Shader_CompilerApp.swift */; };
+		0789CF762C157988006E62C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789CF752C157988006E62C5 /* ContentView.swift */; };
+		0789CF782C15798A006E62C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0789CF772C15798A006E62C5 /* Assets.xcassets */; };
+		0789CF7B2C15798A006E62C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0789CF7A2C15798A006E62C5 /* Preview Assets.xcassets */; };
+		0789CF862C15798A006E62C5 /* OnTheFly_Shader_CompilerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789CF852C15798A006E62C5 /* OnTheFly_Shader_CompilerTests.swift */; };
+		0789CF902C15798A006E62C5 /* OnTheFly_Shader_CompilerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789CF8F2C15798A006E62C5 /* OnTheFly_Shader_CompilerUITests.swift */; };
+		0789CF922C15798A006E62C5 /* OnTheFly_Shader_CompilerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0789CF912C15798A006E62C5 /* OnTheFly_Shader_CompilerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0789CF822C15798A006E62C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0789CF682C157988006E62C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0789CF6F2C157988006E62C5;
+			remoteInfo = "OnTheFly Shader Compiler";
+		};
+		0789CF8C2C15798A006E62C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0789CF682C157988006E62C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0789CF6F2C157988006E62C5;
+			remoteInfo = "OnTheFly Shader Compiler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0789CF702C157988006E62C5 /* OnTheFly Shader Compiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnTheFly Shader Compiler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0789CF732C157988006E62C5 /* OnTheFly_Shader_CompilerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheFly_Shader_CompilerApp.swift; sourceTree = "<group>"; };
+		0789CF752C157988006E62C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0789CF772C15798A006E62C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0789CF7A2C15798A006E62C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0789CF7C2C15798A006E62C5 /* OnTheFly_Shader_Compiler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnTheFly_Shader_Compiler.entitlements; sourceTree = "<group>"; };
+		0789CF812C15798A006E62C5 /* OnTheFly Shader CompilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnTheFly Shader CompilerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0789CF852C15798A006E62C5 /* OnTheFly_Shader_CompilerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheFly_Shader_CompilerTests.swift; sourceTree = "<group>"; };
+		0789CF8B2C15798A006E62C5 /* OnTheFly Shader CompilerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnTheFly Shader CompilerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0789CF8F2C15798A006E62C5 /* OnTheFly_Shader_CompilerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheFly_Shader_CompilerUITests.swift; sourceTree = "<group>"; };
+		0789CF912C15798A006E62C5 /* OnTheFly_Shader_CompilerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheFly_Shader_CompilerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0789CF6D2C157988006E62C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF7E2C15798A006E62C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF882C15798A006E62C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0789CF672C157988006E62C5 = {
+			isa = PBXGroup;
+			children = (
+				0789CF722C157988006E62C5 /* OnTheFly Shader Compiler */,
+				0789CF842C15798A006E62C5 /* OnTheFly Shader CompilerTests */,
+				0789CF8E2C15798A006E62C5 /* OnTheFly Shader CompilerUITests */,
+				0789CF712C157988006E62C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0789CF712C157988006E62C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0789CF702C157988006E62C5 /* OnTheFly Shader Compiler.app */,
+				0789CF812C15798A006E62C5 /* OnTheFly Shader CompilerTests.xctest */,
+				0789CF8B2C15798A006E62C5 /* OnTheFly Shader CompilerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0789CF722C157988006E62C5 /* OnTheFly Shader Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				0789CF732C157988006E62C5 /* OnTheFly_Shader_CompilerApp.swift */,
+				0789CF752C157988006E62C5 /* ContentView.swift */,
+				0789CF772C15798A006E62C5 /* Assets.xcassets */,
+				0789CF7C2C15798A006E62C5 /* OnTheFly_Shader_Compiler.entitlements */,
+				0789CF792C15798A006E62C5 /* Preview Content */,
+			);
+			path = "OnTheFly Shader Compiler";
+			sourceTree = "<group>";
+		};
+		0789CF792C15798A006E62C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0789CF7A2C15798A006E62C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0789CF842C15798A006E62C5 /* OnTheFly Shader CompilerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0789CF852C15798A006E62C5 /* OnTheFly_Shader_CompilerTests.swift */,
+			);
+			path = "OnTheFly Shader CompilerTests";
+			sourceTree = "<group>";
+		};
+		0789CF8E2C15798A006E62C5 /* OnTheFly Shader CompilerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0789CF8F2C15798A006E62C5 /* OnTheFly_Shader_CompilerUITests.swift */,
+				0789CF912C15798A006E62C5 /* OnTheFly_Shader_CompilerUITestsLaunchTests.swift */,
+			);
+			path = "OnTheFly Shader CompilerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0789CF6F2C157988006E62C5 /* OnTheFly Shader Compiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789CF952C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader Compiler" */;
+			buildPhases = (
+				0789CF6C2C157988006E62C5 /* Sources */,
+				0789CF6D2C157988006E62C5 /* Frameworks */,
+				0789CF6E2C157988006E62C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnTheFly Shader Compiler";
+			productName = "OnTheFly Shader Compiler";
+			productReference = 0789CF702C157988006E62C5 /* OnTheFly Shader Compiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0789CF802C15798A006E62C5 /* OnTheFly Shader CompilerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789CF982C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader CompilerTests" */;
+			buildPhases = (
+				0789CF7D2C15798A006E62C5 /* Sources */,
+				0789CF7E2C15798A006E62C5 /* Frameworks */,
+				0789CF7F2C15798A006E62C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0789CF832C15798A006E62C5 /* PBXTargetDependency */,
+			);
+			name = "OnTheFly Shader CompilerTests";
+			productName = "OnTheFly Shader CompilerTests";
+			productReference = 0789CF812C15798A006E62C5 /* OnTheFly Shader CompilerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0789CF8A2C15798A006E62C5 /* OnTheFly Shader CompilerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789CF9B2C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader CompilerUITests" */;
+			buildPhases = (
+				0789CF872C15798A006E62C5 /* Sources */,
+				0789CF882C15798A006E62C5 /* Frameworks */,
+				0789CF892C15798A006E62C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0789CF8D2C15798A006E62C5 /* PBXTargetDependency */,
+			);
+			name = "OnTheFly Shader CompilerUITests";
+			productName = "OnTheFly Shader CompilerUITests";
+			productReference = 0789CF8B2C15798A006E62C5 /* OnTheFly Shader CompilerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0789CF682C157988006E62C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0789CF6F2C157988006E62C5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0789CF802C15798A006E62C5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0789CF6F2C157988006E62C5;
+					};
+					0789CF8A2C15798A006E62C5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0789CF6F2C157988006E62C5;
+					};
+				};
+			};
+			buildConfigurationList = 0789CF6B2C157988006E62C5 /* Build configuration list for PBXProject "OnTheFly Shader Compiler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0789CF672C157988006E62C5;
+			productRefGroup = 0789CF712C157988006E62C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0789CF6F2C157988006E62C5 /* OnTheFly Shader Compiler */,
+				0789CF802C15798A006E62C5 /* OnTheFly Shader CompilerTests */,
+				0789CF8A2C15798A006E62C5 /* OnTheFly Shader CompilerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0789CF6E2C157988006E62C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789CF7B2C15798A006E62C5 /* Preview Assets.xcassets in Resources */,
+				0789CF782C15798A006E62C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF7F2C15798A006E62C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF892C15798A006E62C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0789CF6C2C157988006E62C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789CF762C157988006E62C5 /* ContentView.swift in Sources */,
+				0789CF742C157988006E62C5 /* OnTheFly_Shader_CompilerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF7D2C15798A006E62C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789CF862C15798A006E62C5 /* OnTheFly_Shader_CompilerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789CF872C15798A006E62C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789CF902C15798A006E62C5 /* OnTheFly_Shader_CompilerUITests.swift in Sources */,
+				0789CF922C15798A006E62C5 /* OnTheFly_Shader_CompilerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0789CF832C15798A006E62C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0789CF6F2C157988006E62C5 /* OnTheFly Shader Compiler */;
+			targetProxy = 0789CF822C15798A006E62C5 /* PBXContainerItemProxy */;
+		};
+		0789CF8D2C15798A006E62C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0789CF6F2C157988006E62C5 /* OnTheFly Shader Compiler */;
+			targetProxy = 0789CF8C2C15798A006E62C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0789CF932C15798A006E62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0789CF942C15798A006E62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0789CF962C15798A006E62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OnTheFly Shader Compiler/OnTheFly_Shader_Compiler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnTheFly Shader Compiler/Preview Content\"";
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-Compiler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0789CF972C15798A006E62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OnTheFly Shader Compiler/OnTheFly_Shader_Compiler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnTheFly Shader Compiler/Preview Content\"";
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-Compiler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0789CF992C15798A006E62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-CompilerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTheFly Shader Compiler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnTheFly Shader Compiler";
+			};
+			name = Debug;
+		};
+		0789CF9A2C15798A006E62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-CompilerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTheFly Shader Compiler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnTheFly Shader Compiler";
+			};
+			name = Release;
+		};
+		0789CF9C2C15798A006E62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-CompilerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "OnTheFly Shader Compiler";
+			};
+			name = Debug;
+		};
+		0789CF9D2C15798A006E62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2Z9FDM5M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayushsinghal.OnTheFly-Shader-CompilerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "OnTheFly Shader Compiler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0789CF6B2C157988006E62C5 /* Build configuration list for PBXProject "OnTheFly Shader Compiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789CF932C15798A006E62C5 /* Debug */,
+				0789CF942C15798A006E62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0789CF952C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader Compiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789CF962C15798A006E62C5 /* Debug */,
+				0789CF972C15798A006E62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0789CF982C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader CompilerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789CF992C15798A006E62C5 /* Debug */,
+				0789CF9A2C15798A006E62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0789CF9B2C15798A006E62C5 /* Build configuration list for PBXNativeTarget "OnTheFly Shader CompilerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789CF9C2C15798A006E62C5 /* Debug */,
+				0789CF9D2C15798A006E62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0789CF682C157988006E62C5 /* Project object */;
+}
