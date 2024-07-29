@@ -56,13 +56,14 @@ final class SocketShaderInteractor {
 
     [[ stitchable ]]
     float2 distortionEffect(
-        float2 pos,
+        float2 position,
         float4 bounds,
         float t
     ) {
-      float2 uv = pos / bounds.zw;
-      pos.y += 4 * sin((4 * uv.x + 2 * t));
-      return pos;
+      float2 uv = position / bounds.zw;
+      position.y += 40 * sin((4 * uv.x + 2 * t));
+      position.x += 40 * sin((4 * uv.x + 2 * t));
+      return position;
     }
     """
 }

@@ -27,10 +27,10 @@ struct SocketShaderScreen: View {
                 .drawingGroup()
                 .frame(width: 200.0)
                 .distortionEffect(socketShaderInteractor.shaderLibrary.distortionEffect(
-                    .float4(0.0, 0.0, 200.0, 120.0),
+                    .boundingRect,
                     .float(time)
                 ),
-                maxSampleOffset: CGSize(width: 200.0, height: 200.0))
+                maxSampleOffset: CGSize(width: 4000, height: 200.0))
                 .onReceive(timer) { _ in
                     time += 0.1
                 }
